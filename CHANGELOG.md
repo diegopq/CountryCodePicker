@@ -2,6 +2,7 @@
 
 - dependency update
 - update to flutter version 3.7.5
+- change CountryCodePicker class name to CountryCodePickerX
 
 ## 2.0.2
 

@@ -1,4 +1,5 @@
 <!--[![Pub](https://img.shields.io/pub/v/country_code_picker.svg)](https://pub.dartlang.org/packages/country_code_picker)-->
+
 ## This package is a fork of https://pub.dev/packages/country_code_picker which has been discontinued
 
 ## Contributions
@@ -11,7 +12,7 @@ A flutter package for showing a country code selector.
 
 It supports i18n for 70 languages.
 
-Check the example on web! https://imtoori.dev/CountryCodePicker/#/
+<!-- Check the example on web! https://imtoori.dev/CountryCodePicker/#/ -->
 
 <img src="https://raw.githubusercontent.com/Salvatore-Giordano/CountryCodePicker/master/screenshots/screen1.png" width="240"/>
 <img src="https://raw.githubusercontent.com/Salvatore-Giordano/CountryCodePicker/master/screenshots/screen2.png" width="240"/>
@@ -168,4 +169,3 @@ Here is a list of properties available to customize your widget:
 | flagDecoration            | Decoration                | used for styling the flags                                               |
 | comparator                | Comparator<CountryCode>   | use this to sort the countries in the selection dialog                   |
 | hideSearch                | bool                      | if true the search feature will be disabled                              |
-

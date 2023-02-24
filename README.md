@@ -1,4 +1,9 @@
-[![Pub](https://img.shields.io/pub/v/country_code_picker.svg)](https://pub.dartlang.org/packages/country_code_picker)
+<!--[![Pub](https://img.shields.io/pub/v/country_code_picker.svg)](https://pub.dartlang.org/packages/country_code_picker)-->
+## This package is a fork of https://pub.dev/packages/country_code_picker which has been discontinued
+
+## Contributions
+
+Contributions of any kind are more than welcome! Feel free to fork and improve country_code_picker_x in any way you want, make a pull request, or open an issue.
 
 # country_code_picker_x
 
@@ -164,6 +169,3 @@ Here is a list of properties available to customize your widget:
 | comparator                | Comparator<CountryCode>   | use this to sort the countries in the selection dialog                   |
 | hideSearch                | bool                      | if true the search feature will be disabled                              |
 
-## Contributions
-
-Contributions of any kind are more than welcome! Feel free to fork and improve country_code_picker in any way you want, make a pull request, or open an issue.

@@ -1,5 +1,5 @@
-import 'package:country_code_picker/country_code_picker.dart';
-import 'package:country_code_picker/country_localizations.dart';
+import 'package:country_code_picker_x/country_code_picker.dart';
+import 'package:country_code_picker_x/country_localizations.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
@@ -91,8 +91,8 @@ class _MyAppState extends State<MyApp> {
         GlobalMaterialLocalizations.delegate,
         GlobalWidgetsLocalizations.delegate,
       ],
-      home: new Scaffold(
-        appBar: new AppBar(
+      home: Scaffold(
+        appBar: AppBar(
           title: const Text('CountryPicker Example'),
         ),
         body: Center(
@@ -106,10 +106,10 @@ class _MyAppState extends State<MyApp> {
                 favorite: ['+39', 'FR'],
                 countryFilter: ['IT', 'FR'],
                 showFlagDialog: false,
-                comparator: (a, b) => b.name.compareTo(a.name),
+                comparator: (a, b) => b.name!.compareTo(a.name!),
                 //Get the country information relevant to the initial selection
-                onInit: (code) =>
-                    print("on init ${code.name} ${code.dialCode} ${code.name}"),
+                onInit: (code) => print(
+                    "on init ${code!.name} ${code.dialCode} ${code.name}"),
               ),
               CountryCodePicker(
                 onChanged: print,

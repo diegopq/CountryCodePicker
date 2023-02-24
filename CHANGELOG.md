@@ -1,3 +1,8 @@
+## 2.0.3
+
+- dependency update
+- update to flutter version 3.7.5
+
 ## 2.0.2
 
 - added localization for no_country text in italian and english (please open a pr with other languages if you know them 🙏)
@@ -66,7 +71,7 @@
 
 ## 1.3.12
 
-- Allow to edit dialog textStyle 
+- Allow to edit dialog textStyle
 
 ## 1.3.11
 
@@ -100,7 +105,7 @@
 
 ## 1.3.4
 
-- Add `showFlagDialog` and  `showFlagMain`
+- Add `showFlagDialog` and `showFlagMain`
 
 ## 1.3.3
 

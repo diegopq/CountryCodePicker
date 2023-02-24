@@ -10,7 +10,7 @@ import 'package:universal_platform/universal_platform.dart';
 
 export 'country_code.dart';
 
-class CountryCodePicker extends StatefulWidget {
+class CountryCodePickerX extends StatefulWidget {
   final ValueChanged<CountryCode>? onChanged;
   final ValueChanged<CountryCode?>? onInit;
   final String? initialSelection;
@@ -83,7 +83,7 @@ class CountryCodePicker extends StatefulWidget {
   /// with customized codes.
   final List<Map<String, String>> countryList;
 
-  CountryCodePicker({
+  CountryCodePickerX({
     this.onChanged,
     this.onInit,
     this.initialSelection,
@@ -146,7 +146,7 @@ class CountryCodePicker extends StatefulWidget {
   }
 }
 
-class CountryCodePickerState extends State<CountryCodePicker> {
+class CountryCodePickerState extends State<CountryCodePickerX> {
   CountryCode? selectedItem;
   List<CountryCode> elements = [];
   List<CountryCode> favoriteElements = [];
@@ -234,7 +234,7 @@ class CountryCodePickerState extends State<CountryCodePicker> {
   }
 
   @override
-  void didUpdateWidget(CountryCodePicker oldWidget) {
+  void didUpdateWidget(CountryCodePickerX oldWidget) {
     super.didUpdateWidget(oldWidget);
 
     if (oldWidget.initialSelection != widget.initialSelection) {

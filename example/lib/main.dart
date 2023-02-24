@@ -1,4 +1,4 @@
-import 'package:country_code_picker_x/country_code_picker.dart';
+import 'package:country_code_picker_x/country_code_picker_x.dart';
 import 'package:country_code_picker_x/country_localizations.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
@@ -99,7 +99,7 @@ class _MyAppState extends State<MyApp> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: <Widget>[
-              CountryCodePicker(
+              CountryCodePickerX(
                 onChanged: print,
                 // Initial selection and favorite can be one of code ('IT') OR dial_code('+39')
                 initialSelection: 'IT',
@@ -111,7 +111,7 @@ class _MyAppState extends State<MyApp> {
                 onInit: (code) => print(
                     "on init ${code!.name} ${code.dialCode} ${code.name}"),
               ),
-              CountryCodePicker(
+              CountryCodePickerX(
                 onChanged: print,
                 // Initial selection and favorite can be one of code ('IT') OR dial_code('+39')
                 initialSelection: 'IT',
@@ -125,7 +125,7 @@ class _MyAppState extends State<MyApp> {
               SizedBox(
                 width: 400,
                 height: 60,
-                child: CountryCodePicker(
+                child: CountryCodePickerX(
                   onChanged: print,
                   hideMainText: true,
                   showFlagMain: true,
@@ -140,7 +140,7 @@ class _MyAppState extends State<MyApp> {
               SizedBox(
                 width: 400,
                 height: 60,
-                child: CountryCodePicker(
+                child: CountryCodePickerX(
                   onChanged: (e) => print(e.toLongString()),
                   initialSelection: 'TF',
                   showCountryOnly: true,
@@ -151,7 +151,7 @@ class _MyAppState extends State<MyApp> {
               SizedBox(
                 width: 100,
                 height: 60,
-                child: CountryCodePicker(
+                child: CountryCodePickerX(
                   enabled: false,
                   onChanged: (c) => c.name,
                   initialSelection: 'TF',

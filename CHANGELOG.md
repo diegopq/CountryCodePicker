@@ -1,3 +1,7 @@
+## 2.0.4
+
+- Updated the package name in the image.asset widget to correctly display the flag images
+
 ## 2.0.3
 
 - dependency update

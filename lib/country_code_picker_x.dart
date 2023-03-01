@@ -186,7 +186,7 @@ class CountryCodePickerState extends State<CountryCodePickerX> {
                         : const EdgeInsets.only(right: 16.0),
                     child: Image.asset(
                       selectedItem!.flagUri!,
-                      package: 'country_code_picker',
+                      package: 'country_code_picker_x',
                       width: widget.flagWidth,
                     ),
                   ),
